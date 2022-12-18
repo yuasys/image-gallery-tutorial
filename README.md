@@ -30,3 +30,11 @@ git push -u origin main #Githubにアップロード
 [git remote addを取り消す方法](https://qiita.com/ngtkk/items/05097d127db6a415a7d8)
 
 - GitHub Pagesの設定
+
+1. ブラウザで目的のリポジトリにアクセスする
+1. 上部のメインメニューの中からSettingsを押下（注：Settingsは三点リーダー...に隠れていることもある）
+1. 左のサイドバーメニューのPagesを押下
+1. GitHub Pages項目の下のBuild and deployment項目直下にあるSourceセレクトボタンを押下し、GitHub Acrionsを選択
+1. 使用するワークフローがカードで表示されるので、その中にあるStatic HTMLカードにあるConfigureボタンをクリックする。
+1. ワークフローの雛形ソースが表示され、さらにその下にある緑色のStart commitボタンが現れるのでそのボタンを押下
+1. 確認画面になるので、緑色のSign off and commit new fileボタンを押下する。
